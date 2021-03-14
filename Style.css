@@ -1,0 +1,244 @@
+body,h2,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+/*Header Style*/
+
+.main-header .navbar-brand{
+font-weight: 500;
+font-size: 25px;
+}
+.main-header span{
+    background:#6278df ;
+    color: white;
+    display: inline-block;
+  height: 43px;
+  width: 40px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  top: 3px;
+  font-size: 28px;
+  z-index: 5;
+}
+
+.main-menu .nav-link{
+padding-right: 15px !important;
+padding-left: 15px!important;
+}
+/*Slider Section*/
+
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat center center ;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+position:absolute;
+top:0;
+left: 0;
+z-index: -1;
+background: rgba(0, 0, 0, 0.6);
+}
+
+.slider-caption h4{
+margin-bottom: 45px;
+}
+.slider-caption h2{
+    margin-bottom: 45px;
+}
+.slider-caption .form-control {
+    padding: 14px 25px;
+}
+element {
+}
+.slider-caption .btn {
+    background: #5ba533;
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.counter-number-item .h2{
+    font-size: 70px;
+    font-weight: 500px;
+}
+
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 120px;
+
+}
+.about-text-left .lead{
+    font-size: 25px;
+    line-height: 2.3rem;
+}
+.about-text-left .h2{
+    font-weight: 500px;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.palash .h2{
+    font-weight: 500px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.palash{
+    margin-top: 70px;
+}
+.palash .lead{
+    font-size: 1.6rem;
+    margin-top: 25px;
+}
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img{
+    width:40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.right-text{
+    width: 60%;
+    padding: 25px;
+}
+.left-img img {
+    
+    height: 100%;
+    width: auto !important;
+    position: relative;
+    left: -80px;
+    max-width: inherit;
+}
+/*portfolio css*/
+
+.portfolio-item{}
+
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(104, 118, 243, .7);
+    opacity: 0;
+    visibility:hidden ;
+    position: absolute;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+    transition:.4s;
+}
+
+.main-sec-bg{
+
+}
+/* Pricing Table*/
+.pricing-section{
+    background-color: #f7f9ff;
+   
+}
+.pricing-section h2{
+    font-size: 50px;
+}
+.pricing-item{
+    background: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    border-radius: 5px;
+    
+}
+.pricing-item h2{font-size: 50px;}
+.pricing-item h5{}
+.pricing-item ul{}
+.pricing-item ul li{
+    margin: 35px;
+    font-size: 20px;
+    list-style: none;
+    font-weight: 200;
+    color: #777;
+}
+.pricing-item ul li span{
+    color: #657be0;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+    .pricing-item-button {
+        text-align: center;
+      
+
+    }
+.pricing-item-button{}
+.pricing-item-button a{
+    border-color:657be0 ;
+    color: 657be0;
+    font-size: 27px;
+    padding: 14px 30px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+}
+/* Testimonial Section*/
+.user-info{
+    position: relative;
+    top: 10px;
+    text-align: left;
+    
+}
+.author-info img{
+    width:70px;
+margin-right: 18px;
+
+}
+.author-info{
+width:px;
+margin: auto;
+margin-left: 450px;
+}
+
+.fa-quote-left{
+ 
+    left: 50%;
+    transform: translateX(-50%);
+    top: -35px;
+    font-size: 5.5rem;
+    color: #cccccc;
+    opacity: 0.3;
+}
+
+/*About Section*/
+
+.about-item{
+    margin-top: 90px;
+}
+.about-item .card{ 
+    border-radius: 10px;
+}
+.about-item .card img{
+    width: 130px;
+    height: auto;
+   margin-top: -80px;
+   margin-left: 15px;
+}
+.karim{
+    padding-top: 100px;
+}
+/* contact us css*/
+
+.contact-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+    padding: 40PX;
+}
